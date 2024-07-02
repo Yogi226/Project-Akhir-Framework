@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1035523817028",
+    "firebase_url": "https://project-framework-ffc8e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "project-framework-ffc8e",
+    "storage_bucket": "project-framework-ffc8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035523817028:android:470abbe3c9f9b7213c0611",
+        "android_client_info": {
+          "package_name": "com.example.nasgorpolonia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIpqv6zLLJ1AvPRlUA41icl5ICLd7BRCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
