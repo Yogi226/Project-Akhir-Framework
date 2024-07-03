@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailItemFragment">
+    tools:context=".DetailMenuFragment">
 
     <ImageView
         android:id="@+id/imageadd"
@@ -17,10 +17,10 @@
 
     <ImageView
         android:id="@+id/btnback"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         android:layout_margin="20dp"
-        android:src="@drawable/baseline_keyboard_arrow_left_24"
+        android:src="@drawable/back_icon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:contentDescription="@string/todo" />
@@ -95,7 +95,7 @@
         android:layout_height="30dp"
         android:layout_marginStart="150dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/baseline_remove_circle_24"
+        android:src="@drawable/min_icon"
         app:layout_constraintBottom_toTopOf="@id/btnadd2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/quantity"
@@ -107,7 +107,7 @@
         android:layout_height="30dp"
         android:layout_marginEnd="150dp"
         android:layout_marginBottom="20dp"
-        android:src="@drawable/baseline_add_circle_24"
+        android:src="@drawable/add_icon"
         app:layout_constraintBottom_toTopOf="@id/btnadd2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/quantity"

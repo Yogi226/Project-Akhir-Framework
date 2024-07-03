@@ -27,10 +27,28 @@
         android:id="@+id/cartFragment"
         android:name="com.example.nasgorpolonia.CartFragment"
         android:label="fragment_cart"
-        tools:layout="@layout/fragment_cart" />
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cartFragment_to_confirmOrderFragment"
+            app:destination="@id/confirmOrderFragment" />
+    </fragment>
     <fragment
         android:id="@+id/accountFragment"
         android:name="com.example.nasgorpolonia.AccountFragment"
         android:label="fragment_account"
         tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/confirmOrderFragment"
+        android:name="com.example.nasgorpolonia.ConfirmOrderFragment"
+        android:label="fragment_confirm_order"
+        tools:layout="@layout/fragment_confirm_order" >
+        <action
+            android:id="@+id/action_confirmOrderFragment_to_dialogFragment"
+            app:destination="@id/dialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dialogFragment"
+        android:name="com.example.nasgorpolonia.DialogFragment"
+        android:label="fragment_dialog"
+        tools:layout="@layout/fragment_dialog" />
 </navigation>
