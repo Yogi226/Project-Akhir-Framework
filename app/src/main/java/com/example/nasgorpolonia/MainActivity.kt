@@ -1,6 +1,5 @@
 package com.example.nasgorpolonia
 
-import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -10,11 +9,10 @@ import com.example.nasgorpolonia.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    /*private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        SharedPreferences.init(this)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -27,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         navController.addOnDestinationChangedListener{ _, destination, _ ->
             when (destination.id) {
-                R.id.detailItem -> hideBotNav()
+                R.id.detailMenuFragment -> hideBotNav()
                 R.id.confirmOrderFragment -> hideBotNav()
                 else -> showBotNav()
             }
@@ -41,6 +39,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun hideBotNav() {
         binding.bottomNavBar.visibility = View.GONE
-    }*/
+    }
 
 }
