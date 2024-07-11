@@ -23,6 +23,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/hai_user"
+                android:fontFamily="@font/poppins_regular"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -34,6 +35,7 @@
                 android:layout_marginTop="4dp"
                 android:text="@string/mau_makan_apa_hari_ini"
                 app:layout_constraintStart_toStartOf="parent"
+                android:fontFamily="@font/poppins_regular"
                 app:layout_constraintTop_toBottomOf="@+id/greeting" />
 
 
